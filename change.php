@@ -47,7 +47,7 @@ background-attachment: fixed;">
                 </div>
                 <div class="form-group">
                     <label>用户名</label>
-                    <input type="text" name="username" class="form-control"autocomplete="off"  value="<?php echo $arr['name']?>">
+                    <input type="text" name="username" class="form-control"autocomplete="off"  value="<?php echo $arr['username']?>">
                 </div>
                 <div class="form-group">
                 <label>密码</label>

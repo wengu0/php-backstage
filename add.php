@@ -11,7 +11,7 @@ require_once('connt.php')
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
-<body background="1.JPG" style=" background-repeat:no-repeat ;background-size:100% 100%;
+<body background="bc.png" style=" background-repeat:no-repeat ;background-size:100% 100%;
 background-attachment: fixed;">
  
  
@@ -31,7 +31,7 @@ background-attachment: fixed;">
                     <input type="password" name="password" class="form-control" placeholder="大于6字符小于16字符" autocomplete="off">
                 </div>
 				<div class="form-group">
-                <label>确认密码</label>
+                <label>确认密码</label>Z
 				<input type="password" name="password1" class="form-control" placeholder="与密码相同" autocomplete="off">
 				</div>
 				<div class="form-group">

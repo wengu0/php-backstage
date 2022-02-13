@@ -14,10 +14,9 @@ require_once('connt.php');
         echo "<script>alert('表单没有填写完整')location='add.php'</script>";
       }
       //过滤用户名
-      if(!preg_match("/^[\x{4e00}-\x{9fa5}A-Za-z0-9_]{3,16}+$/u",$username)){
-          throw new Exception('用户名包含非法字符或长度错误，请重新输入！');
+      if(!preg_match("/^[A-Za-z0-9_]{3,16}+$/u",$username)){
+        echo "<script>alert('用户名包含非法字符或长度错误，请重新输入！');location='add.php'</script>";
       }
-
       // 过滤密码
       if ($password !== $password1) {
         echo "<script>alert('两次输入的密码不一致，请重新输入！');location='add.php'</script>";

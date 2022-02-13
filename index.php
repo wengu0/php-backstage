@@ -11,7 +11,7 @@ if (isset($_COOKIE['username'])) {
       echo"<script>alert('你还没登录');location='login.php'</script>";  
     } 
 ?>
-<!DOCTYPE html>
+<html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
@@ -22,20 +22,24 @@ if (isset($_COOKIE['username'])) {
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <style>
 
-    /* div{
+    #hanpi{
         border-radius: 5px;
-		box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
-		border: 1px solid #ccc;
-		padding: 5px;
+		box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+		border: 2px solid #ccc;
+		padding: 10px;
+        height: 10000px;
 
-    } */
+    }
+    .list{
+        list-style-type: none;
+    }
   
     </style>
 <div class="row">
-    <div class="col-md-2">
-        <h3>记账后台管理系统</h1>
+    <div class="col-md-2" id="hanpi">
+        <dav>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image/1.png" width="50px"></dav>
         <div id="per-mes"><?php echo "你好! ".$_SESSION['username'].' ,欢迎来到后台管理!<br>' ?></div>
-        <ul>
+        <ul class='list'>
             <li><a href="index.php">用户管理</a></li>
             
             <li><a href="class.php">分类管理</a></li>
