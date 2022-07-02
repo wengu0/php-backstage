@@ -11,7 +11,7 @@ if (isset($_COOKIE['username'])) {
       echo"<script>alert('你还没登录');location='login.php'</script>";  
     } 
 ?>
-<!DOCTYPE html>
+<html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
