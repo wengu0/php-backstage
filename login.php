@@ -15,7 +15,7 @@ require_once('connt.php');
     <script src="bootstrap/js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
-<body background="1.JPG" style=" background-repeat:no-repeat ;background-size:100% 100%;
+<body background="image/bc.png" style=" background-repeat:no-repeat ;background-size:100% 100%;
 background-attachment: fixed;">
  
  
